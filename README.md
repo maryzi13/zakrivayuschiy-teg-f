@@ -1,1 +1,1 @@
-https://maryzi13.github.io/zakrivayuschiy-teg-f/
+https://github.com/maryzi13/zakrivayuschiy-teg-f

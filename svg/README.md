@@ -1,1 +1,1 @@
-https://maryzi13.github.io/zakrivayuschiy-teg-f/
+В этой папке будут храниться все необходимые SVG-файлы для сайта.

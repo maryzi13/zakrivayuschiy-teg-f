@@ -26,7 +26,7 @@
   width: var(--width-block);
   margin: 100px auto 98px;
   border: 2px solid currentColor;
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   background-color: var(--bg-color);
 }
 
@@ -76,7 +76,7 @@
   right: 25px;
   z-index: 2;
   opacity: 50%;
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-weight: var(--weight-card-accent-text);
   font-size: 14px;
   text-transform: uppercase;
@@ -191,7 +191,7 @@
   position: relative;
   z-index: 2;
   color: var(--hover-text-color);
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font), fantasy;
   font-weight: var(--weight-card-accent-text);
   font-size: 14px;
   line-height: 90%;
@@ -290,14 +290,12 @@ body:has(.footer__floppy[open]) {
   }
 }
 
-.card__like-button:focus,
-.footer__button:focus {
+.button:focus {
   box-shadow: 2px 2px 0px 0px currentColor;
   outline: none;
 }
 
-.card__like-button::before,
-.footer__button::before {
+.button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -310,8 +308,7 @@ body:has(.footer__floppy[open]) {
   transform-origin: left;
 }
 
-.card__like-button:hover::before,
-.footer__button:hover::before {
+.button:hover::before {
   transform: scaleX(1);
 }
 
